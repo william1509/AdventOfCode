@@ -184,13 +184,3 @@ func part2() int {
 
 	return biggestScore
 }
-
-// func loopOver(data []string, s, e, j int) (biggest int) {
-// 	for l := s + 1; l < e; l++ {
-// 		curr, _ := strconv.Atoi(string(data[l][j]))
-// 		if curr > biggest {
-// 			biggest = curr
-// 		}
-// 	}
-// 	return
-// }
