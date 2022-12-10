@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-const FILENAME = "input"
+const FILENAME = "input.dat"
 
 // Could've used modulos and shit but i'm too lazy
 var PART_1 = map[Pair]int{

@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-const FILENAME = "input"
+const FILENAME = "input.dat"
 
 func main() {
 	fmt.Println("Part 1 : ", part1())

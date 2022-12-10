@@ -9,7 +9,7 @@ if __name__ == "__main__":
     parser.add_argument("--day", required=True, type=int, help='Number corresponding to the day')
     args = parser.parse_args()
    
-    dir_name = args.day if args.day > 10 else f"0{args.day}"
+    dir_name = args.day if args.day > 9 else f"0{args.day}"
 
     dirs = os.listdir()
 
