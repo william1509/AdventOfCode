@@ -14,7 +14,7 @@ import (
 const FILENAME = "input.dat"
 
 func main() {
-	// fmt.Println("Part 1 : ", part1())
+	fmt.Println("Part 1 : ", part1())
 	fmt.Println("Part 2 : ", part2())
 }
 
@@ -53,14 +53,10 @@ func part1() int {
 
 			// First iteration
 			switch distance {
-			case 0, 1:
-				break
 			case 2:
 				tail = Add(tail, direction)
-				break
 			case 3:
 				tail = oldHead
-				break
 			}
 			visited[tail] = true
 		}
